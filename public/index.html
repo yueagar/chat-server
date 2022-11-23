@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat Server Test</title>
+        <meta charset="utf8">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="logger.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <textarea id="chatbox" disabled>Chatroom v1.0.0</textarea>
+            <input id="nick" placeholder="Nick" maxlength="15"></input>
+            <textarea id="text" placeholder="Press enter to send message" maxlength="100"></textarea>
+        </div>
+		<div id="noNick">
+			<input id="newNick" placeholder="You need a nick to chat!" maxlength="15"></input>
+			<button id="submitNick">Submit nick</button>
+		</div>
+    </body>
+    <script src="loader.js"></script>
+</html>

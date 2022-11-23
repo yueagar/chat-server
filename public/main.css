@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(-90deg, red, yellow);
+}
+
+#main, #noNick {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#chatbox {
+    display: block;
+    height: 400px;
+    width: 400px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+#nick, #newNick {
+    display: block;
+    margin-top: 20px;
+    border: 0;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+}
+
+#submitNick {
+	display: block;
+	margin-top: 20px;
+	width: 200px;
+	height: 40px;
+	font-size: 24px;
+}
+
+#text {
+    display: block;
+    margin-top: 20px;
+    height: 30px;
+    width: 400px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: 0;
+}

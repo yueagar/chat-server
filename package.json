@@ -1,0 +1,11 @@
+{
+    "name": "chat-server",
+    "version": "1.0.0",
+    "description": "Nothing but a simple chat server",
+    "author": "YueAgar_c",
+    "dependencies": {
+        "ws": "^7.1.2",
+		"express": "^4.13.4",
+        "colour": "^0.7.1"
+    }
+}
